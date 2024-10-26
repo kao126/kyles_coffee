@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="気ままなカフェ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about | Kyle's Coffee</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="sub-header">
+        <div class="container">
+            <div class="contents">
+                <div class="header-left">
+                    <a href="index.html"><img class="logo" src="images/logo.png" alt="Kyle's Coffee top"></a>
+                </div>
+                <input type="checkbox" id="menu">
+                <label for="menu" class="open"></label>
+                <ul class="header-right">
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="lesson-wrapper">
+        <div class="container">
+            <div class="heading">    
+                <h2>About us</h2>
+            </div>
+            <div class="contents">
+                <main>
+                    <h1 class="info">Who We Are...</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dolores eius libero esse. Magni nostrum repudiandae, dolores tempora consectetur, molestiae esse recusandae quam quis natus quia molestias consequuntur eum maiores.</p>
+                    <h1 class="info">Our Mission</h1>
+                    <h2 class="info">Three Experiences</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat modi sint debitis commodi quidem nemo libero eligendi dicta error expedita. Similique delectus eligendi voluptates fuga laudantium sequi fugit provident numquam?</p>
+                    <h1 class="info">Our Values</h1>
+                    <nav class="values">
+                        <div class="value">
+                            <div class="value-info">
+                                <h2>Smiling</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dicta autem corrupti blanditiis amet, voluptatum voluptate reiciendis deserunt sapiente tempora eius voluptas error corporis, aliquid nesciunt accusamus placeat harum nisi.</p>
+                            </div>
+                            <div class="value-img"><img></div>
+                        </div>
+                        <div class="value">
+                            <div class="value-img"><img src=""></div>
+                            <div class="value-info">
+                                <h2>Interesting</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum qui placeat corporis, exercitationem laborum sint cupiditate dolores quos aliquid perspiciatis deleniti. Aperiam, suscipit ab minus fugit voluptatibus facere quam molestiae?</p>
+                            </div>
+                        </div>
+                        <div class="value">
+                            <div class="value-info">
+                                <h2>Exciting</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum omnis, temporibus sequi quia hic, adipisci, exercitationem quas eius magni laborum dolorem ipsum nobis dicta harum modi explicabo cupiditate recusandae! Atque?</p>
+                            </div>
+                            <div class="value-img"><img src=""></div>
+                        </div>
+                    </nav>
+                </main>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="navigation">
+                <div class="location">
+                    <h3 class="nav-title">Kyle's Coffee 本店</h3>
+                    <div class="location-info">
+                        <p class="location-detail">
+                            住所：東京都千代田区大手町1丁目 <br>
+                            　　　大手町駅 C2b 徒歩1分 <br>
+                            電話：070-7789-030 <br>
+                            営業時間：9:00-18:00 <br>
+                            休日：土曜、日曜、祝日
+                        </p>
+                        <div class="location-map">
+                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=18fQYMr9SG68bbAgjhcJiJVGiYJ4_fj35" width="100%" height="100%"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact">   
+                    <h3 class="nav-title">Contact</h3>
+                    <form action="sent.php" id="form">
+                        <div>
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="your-name">
+                        </div>
+
+                        <div>
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="your-email">
+                        </div>
+                        <p id="error-message" class="error-message"></p>
+                        <div>
+                            <label for="message" >メッセージ</label>
+                            <textarea name="message" id="text-message"></textarea>
+                        </div>
+
+                        <input type="submit" class="button" value="送信">
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <footer>
+        <p>
+            <small>&copy; 2020 Kyle's Coffee</small>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
